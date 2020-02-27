@@ -410,11 +410,10 @@
     padding-bottom: 30px;
     letter-spacing: 0.05em;
 }
-
 .sec5 .sec5_box {display: flex; padding: 8% 0; }
-.sec5 .sec5_box .sec5_img {width: 55%; margin-right: 8%; overflow: hidden;}
-.sec5 .sec5_box .sec5_img img {width: 100%; transform: scale(1); transition: all 0.3s ease-in-out; }
-.sec5 .sec5_box .sec5_img img:hover {transform: scale(0.9); opacity: 0.8;}
+.sec5 .sec5_box .sec5_img {width: 55%; margin-right: 8%; overflow: hidden; transform: scale(1); transition: all .8s cubic-bezier(.37, .16, .12, 1);}
+.sec5 .sec5_box .sec5_img:hover {transform: scale(1.1); transition: all .8s cubic-bezier(.37, .16, .12, 1);}
+.sec5 .sec5_box .sec5_img img {width: 100%; }
 .sec5 .sec5_box .sec5_right {width: 35%; position: relative;}
 .sec5 .sec5_box .sec5_right > div {position: absolute; left: 0; top: 0; padding-top: 80px;}
 .sec5 .sec5_box .sec5_right h3 {
