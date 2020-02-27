@@ -516,7 +516,7 @@
 /* 레이어 팝업 1 */
 #layer1 {
     display: none; 
-    position: fixed; left: 400px; top: 170px; 
+    position: fixed; left: 300px; top: 170px; 
     width: 700px; z-index: 1000; 
     border: 10px solid #efecea; 
     box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
@@ -532,7 +532,7 @@
 /* 레이어 팝업 2 */
 #layer2 {
     display: none; 
-    position: fixed; left: 690px; top: 0px; 
+    position: fixed; left: 590px; top: 0px; 
     width: 700px; z-index: 1000; 
     border: 10px solid #efecea; 
     box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
